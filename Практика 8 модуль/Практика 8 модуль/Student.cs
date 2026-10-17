@@ -7,7 +7,7 @@ namespace Практика_8_модуль
     public class Student
     {
         private static int count = 1;
-        public readonly int NumberId;//Уникальный номер — автоматически, менять нельзя
+        public readonly int NumberId;//Уникальный номер - автоматически, менять нельзя
         public string Name { get; set; } = "Nonw";
         public string Group { get; set; } = "Nonw";
         public List<int> Balls { get; private set; } = new List<int>();
